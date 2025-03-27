@@ -1,0 +1,39 @@
+.sidebar {
+  width: 211px;
+  height: 100vh;
+  background: #fab12f;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.menu {
+  list-style: none;
+  padding-top: 40px;
+}
+
+.menu li {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px 0;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+}
+
+.logout {
+  padding-top: 150px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  color: white; 
+}

@@ -1,0 +1,54 @@
+
+
+.teamContainer {
+  background: #fab12f;
+  width: 420px;
+  height: 330px;
+  margin-left: 15px;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.teamList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.memberCard {
+  display: flex;
+  align-items: center;
+  /* background-color: white; */
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.profilePic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.memberInfo {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.name {
+  font-weight: bold;
+  color: white;
+}
+
+.role {
+  font-size: 14px;
+  color: white;
+}

@@ -1,0 +1,182 @@
+﻿Diagnose log at 2025-03-27T13:41:24Z
+
+AppPath: C:\Program Files\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: C:\Program Files\Git\mingw64\bin\
+Version: 2.5.1+90d5f897f164a8fe07d2aa3bf7db439b0b4e03ea
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 22631)
+Reading environment variables... OK
+ Variables:
+HOMEPATH=\Users\HP
+DriverData=C:\Windows\System32\Drivers\DriverData
+COMPUTERNAME=DESKTOP-FV8DQFQ
+GIT_TRACE2_PARENT_SID=77b30f74-1cd8-46ee-8fc1-1e3f2564d9a7
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+OneDrive=C:\Users\HP\OneDrive
+SESSIONNAME=Console
+TMP=C:\Users\HP\AppData\Local\Temp
+PROCESSOR_REVISION=8c01
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+GIT_EXEC_PATH=C:/Program Files/Git/mingw64/libexec/git-core
+TEMP=C:\Users\HP\AppData\Local\Temp
+LOCALAPPDATA=C:\Users\HP\AppData\Local
+MSYSTEM=MINGW64
+TERM=xterm-256color
+EFC_5788=1
+COLORTERM=truecolor
+JAVA_HOME=C:\Program Files\Java\jdk-17;
+USERDOMAIN=DESKTOP-FV8DQFQ
+ProgramFiles(x86)=C:\Program Files (x86)
+Path=C:/Program Files/Git/mingw64/libexec/git-core;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\HP\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\xampp\php;C:\Program Files\Git\cmd;C:\Users\HP\AppData\Local\Pub\Cache\bin;C:\Program Files\nodejs\;C:\Flutter Dev\sdk\flutter\bin;C:\Users\HP\flutter\flutter\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\xampp\php;C:\Program Files\Git\cmd;C:\Users\HP\AppData\Local\Pub\Cache\bin;C:\Program Files\nodejs\;C:\Flutter Dev\sdk\flutter\bin;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;C:\Flutter Dev\sdk\flutter;C:\Users\HP\AppData\Roaming\npm;C:\Flutter Dev\sdk\flutter\bin;C:\Users\HP\AppData\Local\Android\Sdk\platform-tools;
+PROCESSOR_LEVEL=6
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+TMPDIR=C:\Users\HP\AppData\Local\Temp
+PROMPT=$P$G
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+NUMBER_OF_PROCESSORS=4
+FPS_BROWSER_USER_PROFILE_STRING=Default
+CommonProgramFiles=C:\Program Files (x86)\Common Files
+IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeEF2qrzyiUGjjfXTR6E+dgQAAAACAAAAAAAQZgAAAAEAACAAAABScnNMWP8pERk86w92TWz+vZ/3PMdBjU2Bf4+c6JTTtwAAAAAOgAAAAAIAACAAAAAhImceWoMKKAeviVMM6jqVUSFL7hG/5FUMpQhCVU/IGWAAAABAHFPzTqYjXJl4X6MX9YENF1BXqqcN+gbiR35SxRgeqKA9AaofIHcnUQrTpy6FOy83c2r4llDaTEOx8GHrqw+2+IiXwNTtoNGJKBSrn+qoLHTbsbDvcIj/pPQaYPi1e0RAAAAAhtEeTqZVoFuD3F5haSFJisUB3dbCg5Ch9iVJOIQ5iAlCvMypEEb05ZQ7StvXoCFy3wWHGWBgpl0pHZQuh6bMfA==
+PLINK_PROTOCOL=ssh
+ProgramData=C:\ProgramData
+MSYS=disable_pcon
+ProgramFiles=C:\Program Files (x86)
+ProgramW6432=C:\Program Files
+HOME=C:\Users\HP
+LC_CTYPE=C.UTF-8
+CommonProgramW6432=C:\Program Files\Common Files
+ZES_ENABLE_SYSMAN=1
+LOGONSERVER=\\DESKTOP-FV8DQFQ
+USERPROFILE=C:\Users\HP
+SystemRoot=C:\Windows
+USERDOMAIN_ROAMINGPROFILE=DESKTOP-FV8DQFQ
+APPDATA=C:\Users\HP\AppData\Roaming
+HOMEDRIVE=C:
+USERNAME=HP
+PROCESSOR_ARCHITEW6432=AMD64
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+PROCESSOR_ARCHITECTURE=x86
+OS=Windows_NT
+ComSpec=C:\Windows\system32\cmd.exe
+SystemDrive=C:
+windir=C:\Windows
+ALLUSERSPROFILE=C:\ProgramData
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\HP\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\HP\AppData\Local\Temp\67f44c8b8a8b14317fd10c00'... OK
+Reading from temporary file 'C:\Users\HP\AppData\Local\Temp\67f44c8b8a8b14317fd10c00'... OK
+Deleting temporary file 'C:\Users\HP\AppData\Local\Temp\67f44c8b8a8b14317fd10c00'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\HP
+UserDataDirectoryPath: C:\Users\HP\.gcm
+GetCurrentDirectory(): C:\Users\HP\Desktop\Website\evhomesui
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... OK
+ OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:55481/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.46.0.windows.1'
+Locating current repository...Git repository at 'C:/Users/HP/Desktop/Website/evhomesui/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Program Files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig	http.sslbackend=openssl
+file:C:/Program Files/Git/etc/gitconfig	http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+file:C:/Program Files/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig	core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig	core.symlinks=false
+file:C:/Program Files/Git/etc/gitconfig	pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig	credential.helper=manager
+file:C:/Program Files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/HP/.gitconfig	user.email=shrutimisal109@gmail.com
+file:C:/Users/HP/.gitconfig	user.name=shruti misal
+file:C:/Users/HP/.gitconfig	credential.helper=manager
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	remote.origin.url=https://github.com/shrutimisal/evhomes-desktop.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\HP\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\HP\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
