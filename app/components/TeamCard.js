@@ -7,6 +7,10 @@ const TeamCard = () => {
     { name: "Member Name", role: "Sales Executive", image: "/profile.jpg" },
     { name: "Member Name", role: "Sales Executive", image: "/profile.jpg" },
     { name: "Member Name", role: "Sales Executive", image: "/profile.jpg" },
+    { name: "Member Name", role: "Sales Executive", image: "/profile.jpg" },
+    { name: "Member Name", role: "Sales Executive", image: "/profile.jpg" },
+    { name: "Member Name", role: "Sales Executive", image: "/profile.jpg" },
+    { name: "Member Name", role: "Sales Executive", image: "/profile.jpg" },
   ];
 
   return (

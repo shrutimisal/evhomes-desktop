@@ -20,7 +20,13 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    overflow-y: auto;
+    max-height: 270px;
+    scrollbar-width: none;
   }
+  .taskList::-webkit-scrollbar {
+  display: none;
+}
   
 
   .taskCard {

@@ -3,10 +3,14 @@ import styles from "./taskcard.module.css";
 
 const TaskCard = () => {
   const tasks = [
-    { name: "Client Name", remark: "Remark……..!", color: "#F9D7D7" }, 
-    { name: "Client Name", remark: "Remark……..!", color: "#D7F9D7" }, 
-    { name: "Client Name", remark: "Remark……..!", color: "#D7F9D7" }, 
-    { name: "Client Name", remark: "Remark……..!", color: "#F9D7D7" }, 
+    { name: "Client Name", remark: "Remark……!", color: "#F9D7D7" }, 
+    { name: "Client Name", remark: "Remark……!", color: "#D7F9D7" }, 
+    { name: "Client Name", remark: "Remark……!", color: "#D7F9D7" }, 
+    { name: "Client Name", remark: "Remark……!", color: "#F9D7D7" }, 
+    { name: "Client Name", remark: "Remark……!", color: "#F9D7D7" }, 
+    { name: "Client Name", remark: "Remark……!", color: "#D7F9D7" }, 
+    { name: "Client Name", remark: "Remark……!", color: "#D7F9D7" }, 
+    { name: "Client Name", remark: "Remark……!", color: "#F9D7D7" }, 
   ];
 
   return (

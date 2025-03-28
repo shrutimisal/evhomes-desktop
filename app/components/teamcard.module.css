@@ -1,5 +1,3 @@
-
-
 .teamContainer {
   background: #fab12f;
   width: 420px;
@@ -20,6 +18,13 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  max-height: 270px;
+  overflow-y: auto;
+
+  scrollbar-width: none;
+}
+.teamList::-webkit-scrollbar {
+  display: none;
 }
 
 .memberCard {
