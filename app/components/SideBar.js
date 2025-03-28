@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./sidebar.module.css";
-import { FaHome, FaTasks, FaUsers, FaClipboardList, FaCalendarCheck, FaSignOutAlt } from "react-icons/fa";
+import { FaHome, FaTasks, FaUsers, FaClipboardList, FaSignOutAlt, FaCalendarCheck } from "react-icons/fa";
 
 const Sidebar = () => {
   return (
