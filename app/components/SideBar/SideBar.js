@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./sidebar.module.css";
 import { FaHome, FaTasks, FaUsers, FaClipboardList, FaSignOutAlt, FaCalendarCheck } from "react-icons/fa";
+import Link from "next/link";
 
 const Sidebar = () => {
   return (
@@ -18,11 +19,11 @@ const Sidebar = () => {
       
       
       <ul className={styles.menu}>
-        <li><FaHome /> Home</li>
+        <li><Link href="/homepage"><FaHome /> Home</Link></li>
         <li><FaUsers /> Leads</li>
         <li><FaTasks /> Tasks</li>
         <li><FaClipboardList /> Visits</li>
-        <li><FaCalendarCheck /> Attendance</li>
+        <li><Link href="/attendance"><FaCalendarCheck /> Attendance</Link></li>
       </ul>
 
      
