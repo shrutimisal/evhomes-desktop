@@ -5,6 +5,7 @@ import LeadsCard from "../components/Cards/LeadsCard";
 import PieCard from "../components/Cards/PieCard";
 import TaskCard from "../components/Cards/TaskCard";
 import TeamCard from "../components/Cards/TeamCard";
+import "../globals.css";
 
 export default function HomePage() {
   return (
