@@ -48,6 +48,11 @@ const Sidebar = () => {
             <FaCalendarCheck /> Attendance
           </Link>
         </li>
+        {/* <li>
+          <Link href="/forms">
+            <FaCalendarCheck /> Form
+          </Link>
+        </li> */}
       </ul>
 
       <div className={styles.logout}>

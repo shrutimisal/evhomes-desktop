@@ -10,12 +10,20 @@ import "../globals.css";
 export default function HomePage() {
   return (
     <div className="dashboard">
-      <Navbar /> 
+      <Navbar />
 
       <div className="statsCalendarContainer">
         <StatsCard />
         <Calendar />
-        <LeadsCard />
+        <LeadsCard
+          teamLeaderLeads={{
+            totalItems: 120,
+            visitCount: 50,
+            visit2Count: 30,
+            bookingCount: 10,
+            pendingCount: 5,
+          }}
+        />
       </div>
       <div className="pieContainer">
         <PieCard />
