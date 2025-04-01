@@ -1,6 +1,6 @@
 import styles from "./addclienttaggingform.module.css";
 
-export default function AddClientTaggingForm() {
+export function AddClientTaggingForm() {
   return (
     <div className={styles.container}>
       <h2 className={styles.title}>Client Tagging Form</h2>
@@ -13,7 +13,11 @@ export default function AddClientTaggingForm() {
           </div>
           <div className={styles.inputGroup}>
             <label>Valid Till</label>
-            <input type="datetime-local" defaultValue="2025-05-27T16:45" disabled />
+            <input
+              type="datetime-local"
+              defaultValue="2025-05-27T16:45"
+              disabled
+            />
           </div>
           <div className={styles.inputGroup}>
             <label>Client First Name</label>
@@ -35,6 +39,27 @@ export default function AddClientTaggingForm() {
             <label>Email</label>
             <input type="email" placeholder="Enter email" />
           </div>
+          <div className={styles.inputGroupFull}>
+            <label>Projects</label>
+            <select>
+              <option value="">Select Projects</option>
+              <option value="project1">1</option>
+              <option value="project1">1</option>
+              <option value="project1">1</option>
+              <option value="project1">1</option>
+            </select>
+          </div>
+
+          <div className={styles.inputGroupFull}>
+            <label>Requirements</label>
+            <select>
+              <option value="">Select Requirements</option>
+              <option value="project1">1</option>
+              <option value="project1">1</option>
+              <option value="project1">1</option>
+              <option value="project1">1</option>
+            </select>
+          </div>
         </div>
       </div>
       <div className={styles.formSection}>
@@ -49,8 +74,11 @@ export default function AddClientTaggingForm() {
           </div>
         </div>
       </div>
-      <button className={styles.submitButton}>Submit</button>
+
+      <div className={styles.buttonContainer}>
+        <button className={styles.cancelButton}>Cancel</button>
+        <button className={styles.submitButton}>Submit</button>
+      </div>
     </div>
   );
 }
-
