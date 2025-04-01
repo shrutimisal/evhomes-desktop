@@ -1,4 +1,4 @@
-import {AddClientTaggingForm} from "../components/Forms/AddClientTaggingForm";
+import {AddClientTaggingForm} from "./AddClientTaggingForm";
 
 export default function FormPage() {
     return (
