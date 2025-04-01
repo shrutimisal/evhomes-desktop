@@ -13,7 +13,7 @@ export default function FloatingButton() {
           <div className={styles.overlay} onClick={() => setIsOpen(false)} />
           <div className={styles.options}>
             <button className={styles.option}>EVHomes Event Form</button>
-            <button className={styles.option}><Link href="/forms">Add Client Tagging</Link></button>
+            <button className={styles.option}><Link href="/clienttaggingform">Add Client Tagging</Link></button>
             <button className={styles.option}>Add Site Visit Form</button>
             <button className={styles.option}>Add New Booking</button>
             <button className={styles.option}>Add & View Payment</button>
